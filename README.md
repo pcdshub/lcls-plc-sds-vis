@@ -1,2 +1,2 @@
-# lcls-plc-sds-vis-twincat-projecj
+# lcls-plc-sds-vis-twincat-project
 
