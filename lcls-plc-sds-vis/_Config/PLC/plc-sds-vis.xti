@@ -983,7 +983,7 @@ External Setpoint Generation:
 		</DataType>
 	</DataTypes>
 	<Project GUID="{637383AB-EB4E-4ABB-B1B0-A4EF767D84E1}" Name="plc-sds-vis" PrjFilePath="..\..\plc-sds-vis\plc-sds-vis.plcproj" TmcFilePath="..\..\plc-sds-vis\plc-sds-vis.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="plc-sds-vis\plc-sds-vis.tmc" TmcHash="{59C01F4F-3994-93CC-57E5-0CD0A956F2AF}">
+		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="plc-sds-vis\plc-sds-vis.tmc" TmcHash="{D5B15C27-2ED4-C7B4-C686-6D38C49E3935}">
 			<Name>plc-sds-vis Instance</Name>
 			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 			<Vars VarGrpType="1">
