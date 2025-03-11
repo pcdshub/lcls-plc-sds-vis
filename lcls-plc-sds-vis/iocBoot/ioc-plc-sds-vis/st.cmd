@@ -1,12 +1,12 @@
-#!c:/Repos/ads-ioc/R0.6.1///bin/rhel7-x86_64/adsIoc
+#!/reg/g/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc
 ################### AUTO-GENERATED DO NOT EDIT ###################
 #
 #         Project: plc-sds-vis.tsproj
 #        PLC name: plc-sds-vis (plc-sds-vis Instance)
-# Generated using: pytmc 2.15.2.dev0+g73bd2d9.d20230727
-# Project version: unknown
-#    Project hash: unknown
-#     PLC IP/host: 172.21.148.78
+# Generated using: pytmc 2.17.0
+# Project version: c4a0b27
+#    Project hash: c4a0b27835a5648202d18b92de6d686a6228a6ca
+#     PLC IP/host: plc-sds-vis (Specified in Makefile; project has: 172.21.148.78)
 #      PLC Net ID: 172.21.148.78.1.1
 # ** DEVELOPMENT MODE IOC **
 # * Using IOC boot directory for autosave.
@@ -14,17 +14,17 @@
 #
 # Libraries:
 #
-#   lcls-twincat-motion: * (SLAC)
-#   Tc2_Standard: * (Beckhoff Automation GmbH)
-#   Tc2_System: * (Beckhoff Automation GmbH)
-#   Tc3_Module: * (Beckhoff Automation GmbH)
+#   lcls-twincat-motion: * -> 4.2.1 (SLAC)
+#   Tc2_Standard: * -> 3.3.3.0 (Beckhoff Automation GmbH)
+#   Tc2_System: * -> 3.4.26.0 (Beckhoff Automation GmbH)
+#   Tc3_Module: * -> 3.3.21.0 (Beckhoff Automation GmbH)
 #
 ################### AUTO-GENERATED DO NOT EDIT ###################
 < envPaths
 
 epicsEnvSet("ADS_IOC_TOP", "$(TOP)" )
 
-epicsEnvSet("ENGINEER", "" )
+epicsEnvSet("ENGINEER", "rnazir" )
 epicsEnvSet("LOCATION", "PLC:plc-sds-vis" )
 epicsEnvSet("IOCSH_PS1", "$(IOC)> " )
 epicsEnvSet("ACF_FILE", "$(ADS_IOC_TOP)/iocBoot/templates/unrestricted.acf")
@@ -34,7 +34,7 @@ dbLoadDatabase("$(ADS_IOC_TOP)/dbd/adsIoc.dbd")
 adsIoc_registerRecordDeviceDriver(pdbbase)
 
 epicsEnvSet("ASYN_PORT",        "ASYN_PLC")
-epicsEnvSet("IPADDR",           "172.21.148.78")
+epicsEnvSet("IPADDR",           "plc-sds-vis")
 epicsEnvSet("AMSID",            "172.21.148.78.1.1")
 epicsEnvSet("AMS_PORT",         "851")
 epicsEnvSet("ADS_MAX_PARAMS",   "1217")
@@ -44,7 +44,7 @@ epicsEnvSet("ADS_TIMEOUT_MS",   "1000")
 epicsEnvSet("ADS_TIME_SOURCE",  "0")
 
 # Add a route to the PLC automatically:
-system("${ADS_IOC_TOP}/scripts/add_route.sh 172.21.148.78 ^172.*$")
+system("${ADS_IOC_TOP}/scripts/add_route.sh plc-sds-vis ^172.*")
 
 # adsAsynPortDriverConfigure(portName, ipaddr, amsaddr, amsport,
 #    asynParamTableSize, priority, noAutoConnect, defaultSampleTimeMS,
@@ -158,19 +158,19 @@ dbLoadRecords("save_restoreStatus.db", "P=PLC:plc-sds-vis:")
 dbLoadRecords("caPutLog.db", "IOC=$(IOC)")
 
 ## TwinCAT task, application, and project information databases ##
-dbLoadRecords("TwinCAT_TaskInfo.db", "PORT=$(ASYN_PORT),PREFIX=PLC:plc-sds-vis,IDX=1")
+dbLoadRecords("TwinCAT_TaskInfo.db", "PORT=$(ASYN_PORT),PREFIX=PLC:plc-sds-vis,IDX=1,TASK_PORT=350")
 dbLoadRecords("TwinCAT_AppInfo.db", "PORT=$(ASYN_PORT), PREFIX=PLC:plc-sds-vis")
 
-dbLoadRecords("TwinCAT_Project.db", "PREFIX=PLC:plc-sds-vis,PROJECT=plc-sds-vis.tsproj,HASH=unknown,VERSION=unknown,PYTMC=2.15.2.dev0+g73bd2d9.d20230727,PLC_HOST=172.21.148.78")
+dbLoadRecords("TwinCAT_Project.db", "PREFIX=PLC:plc-sds-vis,PROJECT=plc-sds-vis.tsproj,HASH=c4a0b27,VERSION=c4a0b27,PYTMC=2.17.0,PLC_HOST=plc-sds-vis")
 
-#   lcls-twincat-motion: * (SLAC)
-dbLoadRecords("TwinCAT_Dependency.db", "PREFIX=PLC:plc-sds-vis,DEPENDENCY=lcls-twincat-motion,VERSION=*,VENDOR=SLAC")
-#   Tc2_Standard: * (Beckhoff Automation GmbH)
-dbLoadRecords("TwinCAT_Dependency.db", "PREFIX=PLC:plc-sds-vis,DEPENDENCY=Tc2_Standard,VERSION=*,VENDOR=Beckhoff Automation GmbH")
-#   Tc2_System: * (Beckhoff Automation GmbH)
-dbLoadRecords("TwinCAT_Dependency.db", "PREFIX=PLC:plc-sds-vis,DEPENDENCY=Tc2_System,VERSION=*,VENDOR=Beckhoff Automation GmbH")
-#   Tc3_Module: * (Beckhoff Automation GmbH)
-dbLoadRecords("TwinCAT_Dependency.db", "PREFIX=PLC:plc-sds-vis,DEPENDENCY=Tc3_Module,VERSION=*,VENDOR=Beckhoff Automation GmbH")
+#   lcls-twincat-motion: * -> 4.2.1 (SLAC)
+dbLoadRecords("TwinCAT_Dependency.db", "PREFIX=PLC:plc-sds-vis,DEPENDENCY=lcls-twincat-motion,VERSION=4.2.1,VENDOR=SLAC")
+#   Tc2_Standard: * -> 3.3.3.0 (Beckhoff Automation GmbH)
+dbLoadRecords("TwinCAT_Dependency.db", "PREFIX=PLC:plc-sds-vis,DEPENDENCY=Tc2_Standard,VERSION=3.3.3.0,VENDOR=Beckhoff Automation GmbH")
+#   Tc2_System: * -> 3.4.26.0 (Beckhoff Automation GmbH)
+dbLoadRecords("TwinCAT_Dependency.db", "PREFIX=PLC:plc-sds-vis,DEPENDENCY=Tc2_System,VERSION=3.4.26.0,VENDOR=Beckhoff Automation GmbH")
+#   Tc3_Module: * -> 3.3.21.0 (Beckhoff Automation GmbH)
+dbLoadRecords("TwinCAT_Dependency.db", "PREFIX=PLC:plc-sds-vis,DEPENDENCY=Tc3_Module,VERSION=3.3.21.0,VENDOR=Beckhoff Automation GmbH")
 
 cd "$(IOC_TOP)"
 

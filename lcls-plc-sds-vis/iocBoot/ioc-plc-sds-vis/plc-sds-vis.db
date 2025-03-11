@@ -9,6 +9,7 @@ record(bi, "$(PREFIX)LCLSGeneral:GlobalLogTrickleTrip_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "$(PREFIX)LCLSGeneral:LogHost_RBV") {
@@ -24,6 +25,7 @@ record(waveform, "$(PREFIX)LCLSGeneral:LogHost_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "$(PREFIX)LCLSGeneral:LogHost") {
@@ -48,6 +50,7 @@ record(longin, "$(PREFIX)LCLSGeneral:LogPort_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/GVL_Logger.iLogPort?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longout, "$(PREFIX)LCLSGeneral:LogPort") {
@@ -68,6 +71,7 @@ record(longin, "$(PREFIX)LCLSGeneral:LogMessageCount_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/GVL_Logger.nGlobAccEvents?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "VIS:MMS:X:PLC:bError_RBV") {
@@ -81,6 +85,7 @@ record(bi, "VIS:MMS:X:PLC:bError_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "VIS:MMS:X:PLC:bHardwareEnable_RBV") {
@@ -94,6 +99,7 @@ record(bi, "VIS:MMS:X:PLC:bHardwareEnable_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "VIS:MMS:X:PLC:bHomeCmd_RBV") {
@@ -107,6 +113,7 @@ record(bi, "VIS:MMS:X:PLC:bHomeCmd_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bo, "VIS:MMS:X:PLC:bHomeCmd") {
@@ -131,6 +138,7 @@ record(bi, "VIS:MMS:X:PLC:bReset_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bo, "VIS:MMS:X:PLC:bReset") {
@@ -156,6 +164,7 @@ record(bi, "VIS:MMS:X:PLC:bUserEnable_RBV") {
   field(ONAM, "ENABLE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bo, "VIS:MMS:X:PLC:bUserEnable") {
@@ -181,6 +190,7 @@ record(ai, "VIS:MMS:X:PLC:fHomePosition_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ao, "VIS:MMS:X:PLC:fHomePosition") {
@@ -204,6 +214,7 @@ record(ai, "VIS:MMS:X:PLC:fPosDiff_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:X:PLC:nEncoderCount_RBV") {
@@ -215,6 +226,7 @@ record(longin, "VIS:MMS:X:PLC:nEncoderCount_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M1.nEncoderCount?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:X:PLC:nErrorId_RBV") {
@@ -226,6 +238,7 @@ record(longin, "VIS:MMS:X:PLC:nErrorId_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/TS_MS=10/MAIN.M1.nErrorId?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:X:PLC:sErrorMessage_RBV") {
@@ -241,6 +254,7 @@ record(waveform, "VIS:MMS:X:PLC:sErrorMessage_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:X:PLC:AxisPar:PosLagEn_RBV") {
@@ -253,6 +267,7 @@ record(longin, "VIS:MMS:X:PLC:AxisPar:PosLagEn_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M1.stAxisParametersExposed.bCtrlEnablePosDiffControl?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:X:PLC:AxisPar:SLimMaxEn_RBV") {
@@ -265,6 +280,7 @@ record(longin, "VIS:MMS:X:PLC:AxisPar:SLimMaxEn_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M1.stAxisParametersExposed.bEncEnableSoftEndMaxControl?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:X:PLC:AxisPar:SLimMinEn_RBV") {
@@ -277,6 +293,7 @@ record(longin, "VIS:MMS:X:PLC:AxisPar:SLimMinEn_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M1.stAxisParametersExposed.bEncEnableSoftEndMinControl?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:X:PLC:AxisPar:MaxAccel_RBV") {
@@ -290,6 +307,7 @@ record(ai, "VIS:MMS:X:PLC:AxisPar:MaxAccel_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:X:PLC:AxisPar:PosLagVal_RBV") {
@@ -302,6 +320,7 @@ record(ai, "VIS:MMS:X:PLC:AxisPar:PosLagVal_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:X:PLC:AxisPar:PosLagTime_RBV") {
@@ -315,6 +334,7 @@ record(ai, "VIS:MMS:X:PLC:AxisPar:PosLagTime_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:X:PLC:AxisPar:MaxDecel_RBV") {
@@ -328,6 +348,7 @@ record(ai, "VIS:MMS:X:PLC:AxisPar:MaxDecel_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:X:PLC:AxisPar:EncOffset_RBV") {
@@ -340,6 +361,7 @@ record(ai, "VIS:MMS:X:PLC:AxisPar:EncOffset_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:X:PLC:AxisPar:EncScaling_RBV") {
@@ -353,6 +375,7 @@ record(ai, "VIS:MMS:X:PLC:AxisPar:EncScaling_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:X:PLC:AxisPar:SLimMax_RBV") {
@@ -366,6 +389,7 @@ record(ai, "VIS:MMS:X:PLC:AxisPar:SLimMax_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:X:PLC:AxisPar:SLimMin_RBV") {
@@ -379,6 +403,7 @@ record(ai, "VIS:MMS:X:PLC:AxisPar:SLimMin_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:X:PLC:AxisPar:MaxVel_RBV") {
@@ -392,6 +417,7 @@ record(ai, "VIS:MMS:X:PLC:AxisPar:MaxVel_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "VIS:MMS:X:PLC:stEPSB:bEPS_OK_RBV") {
@@ -405,6 +431,7 @@ record(bi, "VIS:MMS:X:PLC:stEPSB:bEPS_OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:X:PLC:stEPSB:nFlags_RBV") {
@@ -416,6 +443,7 @@ record(longin, "VIS:MMS:X:PLC:stEPSB:nFlags_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M1.stEPSBackwardEnable.nFlags?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:X:PLC:stEPSB:sFlagDesc_RBV") {
@@ -431,6 +459,7 @@ record(waveform, "VIS:MMS:X:PLC:stEPSB:sFlagDesc_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:X:PLC:stEPSB:sMessage_RBV") {
@@ -446,6 +475,7 @@ record(waveform, "VIS:MMS:X:PLC:stEPSB:sMessage_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "VIS:MMS:X:PLC:stEPSF:bEPS_OK_RBV") {
@@ -459,6 +489,7 @@ record(bi, "VIS:MMS:X:PLC:stEPSF:bEPS_OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:X:PLC:stEPSF:nFlags_RBV") {
@@ -470,6 +501,7 @@ record(longin, "VIS:MMS:X:PLC:stEPSF:nFlags_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M1.stEPSForwardEnable.nFlags?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:X:PLC:stEPSF:sFlagDesc_RBV") {
@@ -485,6 +517,7 @@ record(waveform, "VIS:MMS:X:PLC:stEPSF:sFlagDesc_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:X:PLC:stEPSF:sMessage_RBV") {
@@ -500,6 +533,7 @@ record(waveform, "VIS:MMS:X:PLC:stEPSF:sMessage_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "VIS:MMS:X:PLC:stEPSP:bEPS_OK_RBV") {
@@ -513,6 +547,7 @@ record(bi, "VIS:MMS:X:PLC:stEPSP:bEPS_OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:X:PLC:stEPSP:nFlags_RBV") {
@@ -524,6 +559,7 @@ record(longin, "VIS:MMS:X:PLC:stEPSP:nFlags_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M1.stEPSPowerEnable.nFlags?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:X:PLC:stEPSP:sFlagDesc_RBV") {
@@ -539,6 +575,7 @@ record(waveform, "VIS:MMS:X:PLC:stEPSP:sFlagDesc_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:X:PLC:stEPSP:sMessage_RBV") {
@@ -554,6 +591,7 @@ record(waveform, "VIS:MMS:X:PLC:stEPSP:sMessage_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "VIS:MMS:Y:PLC:bError_RBV") {
@@ -567,6 +605,7 @@ record(bi, "VIS:MMS:Y:PLC:bError_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "VIS:MMS:Y:PLC:bHardwareEnable_RBV") {
@@ -580,6 +619,7 @@ record(bi, "VIS:MMS:Y:PLC:bHardwareEnable_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "VIS:MMS:Y:PLC:bHomeCmd_RBV") {
@@ -593,6 +633,7 @@ record(bi, "VIS:MMS:Y:PLC:bHomeCmd_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bo, "VIS:MMS:Y:PLC:bHomeCmd") {
@@ -617,6 +658,7 @@ record(bi, "VIS:MMS:Y:PLC:bReset_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bo, "VIS:MMS:Y:PLC:bReset") {
@@ -642,6 +684,7 @@ record(bi, "VIS:MMS:Y:PLC:bUserEnable_RBV") {
   field(ONAM, "ENABLE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bo, "VIS:MMS:Y:PLC:bUserEnable") {
@@ -667,6 +710,7 @@ record(ai, "VIS:MMS:Y:PLC:fHomePosition_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ao, "VIS:MMS:Y:PLC:fHomePosition") {
@@ -690,6 +734,7 @@ record(ai, "VIS:MMS:Y:PLC:fPosDiff_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:Y:PLC:nEncoderCount_RBV") {
@@ -701,6 +746,7 @@ record(longin, "VIS:MMS:Y:PLC:nEncoderCount_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M2.nEncoderCount?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:Y:PLC:nErrorId_RBV") {
@@ -712,6 +758,7 @@ record(longin, "VIS:MMS:Y:PLC:nErrorId_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/TS_MS=10/MAIN.M2.nErrorId?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:Y:PLC:sErrorMessage_RBV") {
@@ -727,6 +774,7 @@ record(waveform, "VIS:MMS:Y:PLC:sErrorMessage_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:Y:PLC:AxisPar:PosLagEn_RBV") {
@@ -739,6 +787,7 @@ record(longin, "VIS:MMS:Y:PLC:AxisPar:PosLagEn_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M2.stAxisParametersExposed.bCtrlEnablePosDiffControl?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:Y:PLC:AxisPar:SLimMaxEn_RBV") {
@@ -751,6 +800,7 @@ record(longin, "VIS:MMS:Y:PLC:AxisPar:SLimMaxEn_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M2.stAxisParametersExposed.bEncEnableSoftEndMaxControl?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:Y:PLC:AxisPar:SLimMinEn_RBV") {
@@ -763,6 +813,7 @@ record(longin, "VIS:MMS:Y:PLC:AxisPar:SLimMinEn_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M2.stAxisParametersExposed.bEncEnableSoftEndMinControl?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:Y:PLC:AxisPar:MaxAccel_RBV") {
@@ -776,6 +827,7 @@ record(ai, "VIS:MMS:Y:PLC:AxisPar:MaxAccel_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:Y:PLC:AxisPar:PosLagVal_RBV") {
@@ -788,6 +840,7 @@ record(ai, "VIS:MMS:Y:PLC:AxisPar:PosLagVal_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:Y:PLC:AxisPar:PosLagTime_RBV") {
@@ -801,6 +854,7 @@ record(ai, "VIS:MMS:Y:PLC:AxisPar:PosLagTime_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:Y:PLC:AxisPar:MaxDecel_RBV") {
@@ -814,6 +868,7 @@ record(ai, "VIS:MMS:Y:PLC:AxisPar:MaxDecel_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:Y:PLC:AxisPar:EncOffset_RBV") {
@@ -826,6 +881,7 @@ record(ai, "VIS:MMS:Y:PLC:AxisPar:EncOffset_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:Y:PLC:AxisPar:EncScaling_RBV") {
@@ -839,6 +895,7 @@ record(ai, "VIS:MMS:Y:PLC:AxisPar:EncScaling_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:Y:PLC:AxisPar:SLimMax_RBV") {
@@ -852,6 +909,7 @@ record(ai, "VIS:MMS:Y:PLC:AxisPar:SLimMax_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:Y:PLC:AxisPar:SLimMin_RBV") {
@@ -865,6 +923,7 @@ record(ai, "VIS:MMS:Y:PLC:AxisPar:SLimMin_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:Y:PLC:AxisPar:MaxVel_RBV") {
@@ -878,6 +937,7 @@ record(ai, "VIS:MMS:Y:PLC:AxisPar:MaxVel_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "VIS:MMS:Y:PLC:stEPSB:bEPS_OK_RBV") {
@@ -891,6 +951,7 @@ record(bi, "VIS:MMS:Y:PLC:stEPSB:bEPS_OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:Y:PLC:stEPSB:nFlags_RBV") {
@@ -902,6 +963,7 @@ record(longin, "VIS:MMS:Y:PLC:stEPSB:nFlags_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M2.stEPSBackwardEnable.nFlags?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:Y:PLC:stEPSB:sFlagDesc_RBV") {
@@ -917,6 +979,7 @@ record(waveform, "VIS:MMS:Y:PLC:stEPSB:sFlagDesc_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:Y:PLC:stEPSB:sMessage_RBV") {
@@ -932,6 +995,7 @@ record(waveform, "VIS:MMS:Y:PLC:stEPSB:sMessage_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "VIS:MMS:Y:PLC:stEPSF:bEPS_OK_RBV") {
@@ -945,6 +1009,7 @@ record(bi, "VIS:MMS:Y:PLC:stEPSF:bEPS_OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:Y:PLC:stEPSF:nFlags_RBV") {
@@ -956,6 +1021,7 @@ record(longin, "VIS:MMS:Y:PLC:stEPSF:nFlags_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M2.stEPSForwardEnable.nFlags?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:Y:PLC:stEPSF:sFlagDesc_RBV") {
@@ -971,6 +1037,7 @@ record(waveform, "VIS:MMS:Y:PLC:stEPSF:sFlagDesc_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:Y:PLC:stEPSF:sMessage_RBV") {
@@ -986,6 +1053,7 @@ record(waveform, "VIS:MMS:Y:PLC:stEPSF:sMessage_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "VIS:MMS:Y:PLC:stEPSP:bEPS_OK_RBV") {
@@ -999,6 +1067,7 @@ record(bi, "VIS:MMS:Y:PLC:stEPSP:bEPS_OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:Y:PLC:stEPSP:nFlags_RBV") {
@@ -1010,6 +1079,7 @@ record(longin, "VIS:MMS:Y:PLC:stEPSP:nFlags_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M2.stEPSPowerEnable.nFlags?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:Y:PLC:stEPSP:sFlagDesc_RBV") {
@@ -1025,6 +1095,7 @@ record(waveform, "VIS:MMS:Y:PLC:stEPSP:sFlagDesc_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:Y:PLC:stEPSP:sMessage_RBV") {
@@ -1040,6 +1111,7 @@ record(waveform, "VIS:MMS:Y:PLC:stEPSP:sMessage_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "VIS:MMS:Z:PLC:bError_RBV") {
@@ -1053,6 +1125,7 @@ record(bi, "VIS:MMS:Z:PLC:bError_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "VIS:MMS:Z:PLC:bHardwareEnable_RBV") {
@@ -1066,6 +1139,7 @@ record(bi, "VIS:MMS:Z:PLC:bHardwareEnable_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "VIS:MMS:Z:PLC:bHomeCmd_RBV") {
@@ -1079,6 +1153,7 @@ record(bi, "VIS:MMS:Z:PLC:bHomeCmd_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bo, "VIS:MMS:Z:PLC:bHomeCmd") {
@@ -1103,6 +1178,7 @@ record(bi, "VIS:MMS:Z:PLC:bReset_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bo, "VIS:MMS:Z:PLC:bReset") {
@@ -1128,6 +1204,7 @@ record(bi, "VIS:MMS:Z:PLC:bUserEnable_RBV") {
   field(ONAM, "ENABLE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bo, "VIS:MMS:Z:PLC:bUserEnable") {
@@ -1153,6 +1230,7 @@ record(ai, "VIS:MMS:Z:PLC:fHomePosition_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ao, "VIS:MMS:Z:PLC:fHomePosition") {
@@ -1176,6 +1254,7 @@ record(ai, "VIS:MMS:Z:PLC:fPosDiff_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:Z:PLC:nEncoderCount_RBV") {
@@ -1187,6 +1266,7 @@ record(longin, "VIS:MMS:Z:PLC:nEncoderCount_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M3.nEncoderCount?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:Z:PLC:nErrorId_RBV") {
@@ -1198,6 +1278,7 @@ record(longin, "VIS:MMS:Z:PLC:nErrorId_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/TS_MS=10/MAIN.M3.nErrorId?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:Z:PLC:sErrorMessage_RBV") {
@@ -1213,6 +1294,7 @@ record(waveform, "VIS:MMS:Z:PLC:sErrorMessage_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:Z:PLC:AxisPar:PosLagEn_RBV") {
@@ -1225,6 +1307,7 @@ record(longin, "VIS:MMS:Z:PLC:AxisPar:PosLagEn_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M3.stAxisParametersExposed.bCtrlEnablePosDiffControl?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:Z:PLC:AxisPar:SLimMaxEn_RBV") {
@@ -1237,6 +1320,7 @@ record(longin, "VIS:MMS:Z:PLC:AxisPar:SLimMaxEn_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M3.stAxisParametersExposed.bEncEnableSoftEndMaxControl?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:Z:PLC:AxisPar:SLimMinEn_RBV") {
@@ -1249,6 +1333,7 @@ record(longin, "VIS:MMS:Z:PLC:AxisPar:SLimMinEn_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M3.stAxisParametersExposed.bEncEnableSoftEndMinControl?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:Z:PLC:AxisPar:MaxAccel_RBV") {
@@ -1262,6 +1347,7 @@ record(ai, "VIS:MMS:Z:PLC:AxisPar:MaxAccel_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:Z:PLC:AxisPar:PosLagVal_RBV") {
@@ -1274,6 +1360,7 @@ record(ai, "VIS:MMS:Z:PLC:AxisPar:PosLagVal_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:Z:PLC:AxisPar:PosLagTime_RBV") {
@@ -1287,6 +1374,7 @@ record(ai, "VIS:MMS:Z:PLC:AxisPar:PosLagTime_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:Z:PLC:AxisPar:MaxDecel_RBV") {
@@ -1300,6 +1388,7 @@ record(ai, "VIS:MMS:Z:PLC:AxisPar:MaxDecel_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:Z:PLC:AxisPar:EncOffset_RBV") {
@@ -1312,6 +1401,7 @@ record(ai, "VIS:MMS:Z:PLC:AxisPar:EncOffset_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:Z:PLC:AxisPar:EncScaling_RBV") {
@@ -1325,6 +1415,7 @@ record(ai, "VIS:MMS:Z:PLC:AxisPar:EncScaling_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:Z:PLC:AxisPar:SLimMax_RBV") {
@@ -1338,6 +1429,7 @@ record(ai, "VIS:MMS:Z:PLC:AxisPar:SLimMax_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:Z:PLC:AxisPar:SLimMin_RBV") {
@@ -1351,6 +1443,7 @@ record(ai, "VIS:MMS:Z:PLC:AxisPar:SLimMin_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "VIS:MMS:Z:PLC:AxisPar:MaxVel_RBV") {
@@ -1364,6 +1457,7 @@ record(ai, "VIS:MMS:Z:PLC:AxisPar:MaxVel_RBV") {
   field(PREC, "3")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "VIS:MMS:Z:PLC:stEPSB:bEPS_OK_RBV") {
@@ -1377,6 +1471,7 @@ record(bi, "VIS:MMS:Z:PLC:stEPSB:bEPS_OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:Z:PLC:stEPSB:nFlags_RBV") {
@@ -1388,6 +1483,7 @@ record(longin, "VIS:MMS:Z:PLC:stEPSB:nFlags_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M3.stEPSBackwardEnable.nFlags?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:Z:PLC:stEPSB:sFlagDesc_RBV") {
@@ -1403,6 +1499,7 @@ record(waveform, "VIS:MMS:Z:PLC:stEPSB:sFlagDesc_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:Z:PLC:stEPSB:sMessage_RBV") {
@@ -1418,6 +1515,7 @@ record(waveform, "VIS:MMS:Z:PLC:stEPSB:sMessage_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "VIS:MMS:Z:PLC:stEPSF:bEPS_OK_RBV") {
@@ -1431,6 +1529,7 @@ record(bi, "VIS:MMS:Z:PLC:stEPSF:bEPS_OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:Z:PLC:stEPSF:nFlags_RBV") {
@@ -1442,6 +1541,7 @@ record(longin, "VIS:MMS:Z:PLC:stEPSF:nFlags_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M3.stEPSForwardEnable.nFlags?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:Z:PLC:stEPSF:sFlagDesc_RBV") {
@@ -1457,6 +1557,7 @@ record(waveform, "VIS:MMS:Z:PLC:stEPSF:sFlagDesc_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:Z:PLC:stEPSF:sMessage_RBV") {
@@ -1472,6 +1573,7 @@ record(waveform, "VIS:MMS:Z:PLC:stEPSF:sMessage_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "VIS:MMS:Z:PLC:stEPSP:bEPS_OK_RBV") {
@@ -1485,6 +1587,7 @@ record(bi, "VIS:MMS:Z:PLC:stEPSP:bEPS_OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "VIS:MMS:Z:PLC:stEPSP:nFlags_RBV") {
@@ -1496,6 +1599,7 @@ record(longin, "VIS:MMS:Z:PLC:stEPSP:nFlags_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MAIN.M3.stEPSPowerEnable.nFlags?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:Z:PLC:stEPSP:sFlagDesc_RBV") {
@@ -1511,6 +1615,7 @@ record(waveform, "VIS:MMS:Z:PLC:stEPSP:sFlagDesc_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "VIS:MMS:Z:PLC:stEPSP:sMessage_RBV") {
@@ -1526,6 +1631,7 @@ record(waveform, "VIS:MMS:Z:PLC:stEPSP:sMessage_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)DB:REFRESH_RBV") {
@@ -1539,6 +1645,7 @@ record(bi, "$(PREFIX)DB:REFRESH_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bo, "$(PREFIX)DB:REFRESH") {
@@ -1562,6 +1669,7 @@ record(longin, "$(PREFIX)DB:LAST_REFRESH_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/MOTION_GVL.fbStandardPMPSDB.nLastRefreshTime?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)AccumulatedFastFaults_RBV") {
@@ -1573,6 +1681,7 @@ record(longin, "$(PREFIX)AccumulatedFastFaults_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/PMPS_GVL.AccumulatedFF?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)SuccessfulPreemptions_RBV") {
@@ -1584,6 +1693,7 @@ record(longin, "$(PREFIX)SuccessfulPreemptions_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/PMPS_GVL.SuccessfulPreemption?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "$(PREFIX)0RateBeamCnst:Veto_RBV") {
@@ -1599,6 +1709,7 @@ record(waveform, "$(PREFIX)0RateBeamCnst:Veto_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)0RateBeamCnst:Apt:01:Height_RBV") {
@@ -1612,6 +1723,7 @@ record(ai, "$(PREFIX)0RateBeamCnst:Apt:01:Height_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)0RateBeamCnst:Apt:01:Width_RBV") {
@@ -1625,6 +1737,7 @@ record(ai, "$(PREFIX)0RateBeamCnst:Apt:01:Width_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)0RateBeamCnst:Apt:01:OK_RBV") {
@@ -1638,6 +1751,7 @@ record(bi, "$(PREFIX)0RateBeamCnst:Apt:01:OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)0RateBeamCnst:Apt:02:Height_RBV") {
@@ -1651,6 +1765,7 @@ record(ai, "$(PREFIX)0RateBeamCnst:Apt:02:Height_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)0RateBeamCnst:Apt:02:Width_RBV") {
@@ -1664,6 +1779,7 @@ record(ai, "$(PREFIX)0RateBeamCnst:Apt:02:Width_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)0RateBeamCnst:Apt:02:OK_RBV") {
@@ -1677,6 +1793,7 @@ record(bi, "$(PREFIX)0RateBeamCnst:Apt:02:OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)0RateBeamCnst:Apt:03:Height_RBV") {
@@ -1690,6 +1807,7 @@ record(ai, "$(PREFIX)0RateBeamCnst:Apt:03:Height_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)0RateBeamCnst:Apt:03:Width_RBV") {
@@ -1703,6 +1821,7 @@ record(ai, "$(PREFIX)0RateBeamCnst:Apt:03:Width_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)0RateBeamCnst:Apt:03:OK_RBV") {
@@ -1716,6 +1835,7 @@ record(bi, "$(PREFIX)0RateBeamCnst:Apt:03:OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)0RateBeamCnst:Apt:04:Height_RBV") {
@@ -1729,6 +1849,7 @@ record(ai, "$(PREFIX)0RateBeamCnst:Apt:04:Height_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)0RateBeamCnst:Apt:04:Width_RBV") {
@@ -1742,6 +1863,7 @@ record(ai, "$(PREFIX)0RateBeamCnst:Apt:04:Width_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)0RateBeamCnst:Apt:04:OK_RBV") {
@@ -1755,6 +1877,7 @@ record(bi, "$(PREFIX)0RateBeamCnst:Apt:04:OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)0RateBeamCnst:BeamClassRanges_RBV") {
@@ -1766,6 +1889,7 @@ record(longin, "$(PREFIX)0RateBeamCnst:BeamClassRanges_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/PMPS_GVL.cst0RateBeam.nBCRange?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)0RateBeamCnst:BeamClass_RBV") {
@@ -1777,6 +1901,7 @@ record(longin, "$(PREFIX)0RateBeamCnst:BeamClass_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/PMPS_GVL.cst0RateBeam.nBeamClass?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)0RateBeamCnst:Cohort_RBV") {
@@ -1788,6 +1913,7 @@ record(longin, "$(PREFIX)0RateBeamCnst:Cohort_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/PMPS_GVL.cst0RateBeam.nCohortInt?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)0RateBeamCnst:MachineMode_RBV") {
@@ -1799,6 +1925,7 @@ record(longin, "$(PREFIX)0RateBeamCnst:MachineMode_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/PMPS_GVL.cst0RateBeam.nMachineMode?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)0RateBeamCnst:Rate_RBV") {
@@ -1811,6 +1938,7 @@ record(longin, "$(PREFIX)0RateBeamCnst:Rate_RBV") {
   field(EGU, "Hz")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)0RateBeamCnst:Transmission_RBV") {
@@ -1825,6 +1953,7 @@ record(ai, "$(PREFIX)0RateBeamCnst:Transmission_RBV") {
   field(LOPR, "0")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)0RateBeamCnst:PhotonEnergy_RBV") {
@@ -1838,6 +1967,7 @@ record(ai, "$(PREFIX)0RateBeamCnst:PhotonEnergy_RBV") {
   field(EGU, "eV")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)0RateBeamCnst:eVRanges_RBV") {
@@ -1850,6 +1980,7 @@ record(longin, "$(PREFIX)0RateBeamCnst:eVRanges_RBV") {
   field(EGU, "eV")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)0RateBeamCnst:Valid_RBV") {
@@ -1863,6 +1994,7 @@ record(bi, "$(PREFIX)0RateBeamCnst:Valid_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "$(PREFIX)FullBeamCnst:Veto_RBV") {
@@ -1878,6 +2010,7 @@ record(waveform, "$(PREFIX)FullBeamCnst:Veto_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)FullBeamCnst:Apt:01:Height_RBV") {
@@ -1891,6 +2024,7 @@ record(ai, "$(PREFIX)FullBeamCnst:Apt:01:Height_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)FullBeamCnst:Apt:01:Width_RBV") {
@@ -1904,6 +2038,7 @@ record(ai, "$(PREFIX)FullBeamCnst:Apt:01:Width_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)FullBeamCnst:Apt:01:OK_RBV") {
@@ -1917,6 +2052,7 @@ record(bi, "$(PREFIX)FullBeamCnst:Apt:01:OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)FullBeamCnst:Apt:02:Height_RBV") {
@@ -1930,6 +2066,7 @@ record(ai, "$(PREFIX)FullBeamCnst:Apt:02:Height_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)FullBeamCnst:Apt:02:Width_RBV") {
@@ -1943,6 +2080,7 @@ record(ai, "$(PREFIX)FullBeamCnst:Apt:02:Width_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)FullBeamCnst:Apt:02:OK_RBV") {
@@ -1956,6 +2094,7 @@ record(bi, "$(PREFIX)FullBeamCnst:Apt:02:OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)FullBeamCnst:Apt:03:Height_RBV") {
@@ -1969,6 +2108,7 @@ record(ai, "$(PREFIX)FullBeamCnst:Apt:03:Height_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)FullBeamCnst:Apt:03:Width_RBV") {
@@ -1982,6 +2122,7 @@ record(ai, "$(PREFIX)FullBeamCnst:Apt:03:Width_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)FullBeamCnst:Apt:03:OK_RBV") {
@@ -1995,6 +2136,7 @@ record(bi, "$(PREFIX)FullBeamCnst:Apt:03:OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)FullBeamCnst:Apt:04:Height_RBV") {
@@ -2008,6 +2150,7 @@ record(ai, "$(PREFIX)FullBeamCnst:Apt:04:Height_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)FullBeamCnst:Apt:04:Width_RBV") {
@@ -2021,6 +2164,7 @@ record(ai, "$(PREFIX)FullBeamCnst:Apt:04:Width_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)FullBeamCnst:Apt:04:OK_RBV") {
@@ -2034,6 +2178,7 @@ record(bi, "$(PREFIX)FullBeamCnst:Apt:04:OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)FullBeamCnst:BeamClassRanges_RBV") {
@@ -2045,6 +2190,7 @@ record(longin, "$(PREFIX)FullBeamCnst:BeamClassRanges_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/PMPS_GVL.cstFullBeam.nBCRange?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)FullBeamCnst:BeamClass_RBV") {
@@ -2056,6 +2202,7 @@ record(longin, "$(PREFIX)FullBeamCnst:BeamClass_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/PMPS_GVL.cstFullBeam.nBeamClass?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)FullBeamCnst:Cohort_RBV") {
@@ -2067,6 +2214,7 @@ record(longin, "$(PREFIX)FullBeamCnst:Cohort_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/PMPS_GVL.cstFullBeam.nCohortInt?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)FullBeamCnst:MachineMode_RBV") {
@@ -2078,6 +2226,7 @@ record(longin, "$(PREFIX)FullBeamCnst:MachineMode_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/PMPS_GVL.cstFullBeam.nMachineMode?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)FullBeamCnst:Rate_RBV") {
@@ -2090,6 +2239,7 @@ record(longin, "$(PREFIX)FullBeamCnst:Rate_RBV") {
   field(EGU, "Hz")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)FullBeamCnst:Transmission_RBV") {
@@ -2104,6 +2254,7 @@ record(ai, "$(PREFIX)FullBeamCnst:Transmission_RBV") {
   field(LOPR, "0")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)FullBeamCnst:PhotonEnergy_RBV") {
@@ -2117,6 +2268,7 @@ record(ai, "$(PREFIX)FullBeamCnst:PhotonEnergy_RBV") {
   field(EGU, "eV")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)FullBeamCnst:eVRanges_RBV") {
@@ -2129,6 +2281,7 @@ record(longin, "$(PREFIX)FullBeamCnst:eVRanges_RBV") {
   field(EGU, "eV")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)FullBeamCnst:Valid_RBV") {
@@ -2142,6 +2295,7 @@ record(bi, "$(PREFIX)FullBeamCnst:Valid_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "$(PREFIX)eVRangeCnst_RBV") {
@@ -2158,6 +2312,7 @@ record(waveform, "$(PREFIX)eVRangeCnst_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "$(PREFIX)K:eVRangeCnst_RBV") {
@@ -2174,6 +2329,7 @@ record(waveform, "$(PREFIX)K:eVRangeCnst_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "$(PREFIX)L:eVRangeCnst_RBV") {
@@ -2190,6 +2346,7 @@ record(waveform, "$(PREFIX)L:eVRangeCnst_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)eVRangeHyst_RBV") {
@@ -2203,6 +2360,7 @@ record(ai, "$(PREFIX)eVRangeHyst_RBV") {
   field(EGU, "eV")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "$(PREFIX)CurrentBP:Veto_RBV") {
@@ -2219,6 +2377,7 @@ record(waveform, "$(PREFIX)CurrentBP:Veto_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)CurrentBP:Apt:01:Height_RBV") {
@@ -2233,6 +2392,7 @@ record(ai, "$(PREFIX)CurrentBP:Apt:01:Height_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)CurrentBP:Apt:01:Width_RBV") {
@@ -2247,6 +2407,7 @@ record(ai, "$(PREFIX)CurrentBP:Apt:01:Width_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)CurrentBP:Apt:01:OK_RBV") {
@@ -2261,6 +2422,7 @@ record(bi, "$(PREFIX)CurrentBP:Apt:01:OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)CurrentBP:Apt:02:Height_RBV") {
@@ -2275,6 +2437,7 @@ record(ai, "$(PREFIX)CurrentBP:Apt:02:Height_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)CurrentBP:Apt:02:Width_RBV") {
@@ -2289,6 +2452,7 @@ record(ai, "$(PREFIX)CurrentBP:Apt:02:Width_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)CurrentBP:Apt:02:OK_RBV") {
@@ -2303,6 +2467,7 @@ record(bi, "$(PREFIX)CurrentBP:Apt:02:OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)CurrentBP:Apt:03:Height_RBV") {
@@ -2317,6 +2482,7 @@ record(ai, "$(PREFIX)CurrentBP:Apt:03:Height_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)CurrentBP:Apt:03:Width_RBV") {
@@ -2331,6 +2497,7 @@ record(ai, "$(PREFIX)CurrentBP:Apt:03:Width_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)CurrentBP:Apt:03:OK_RBV") {
@@ -2345,6 +2512,7 @@ record(bi, "$(PREFIX)CurrentBP:Apt:03:OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)CurrentBP:Apt:04:Height_RBV") {
@@ -2359,6 +2527,7 @@ record(ai, "$(PREFIX)CurrentBP:Apt:04:Height_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)CurrentBP:Apt:04:Width_RBV") {
@@ -2373,6 +2542,7 @@ record(ai, "$(PREFIX)CurrentBP:Apt:04:Width_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)CurrentBP:Apt:04:OK_RBV") {
@@ -2387,6 +2557,7 @@ record(bi, "$(PREFIX)CurrentBP:Apt:04:OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)CurrentBP:BeamClassRanges_RBV") {
@@ -2399,6 +2570,7 @@ record(longin, "$(PREFIX)CurrentBP:BeamClassRanges_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/PMPS_GVL.stCurrentBeamParameters.nBCRange?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)CurrentBP:BeamClass_RBV") {
@@ -2411,6 +2583,7 @@ record(longin, "$(PREFIX)CurrentBP:BeamClass_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/PMPS_GVL.stCurrentBeamParameters.nBeamClass?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)CurrentBP:Cohort_RBV") {
@@ -2422,6 +2595,7 @@ record(longin, "$(PREFIX)CurrentBP:Cohort_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/PMPS_GVL.stCurrentBeamParameters.nCohortInt?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)CurrentBP:MachineMode_RBV") {
@@ -2434,6 +2608,7 @@ record(longin, "$(PREFIX)CurrentBP:MachineMode_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/PMPS_GVL.stCurrentBeamParameters.nMachineMode?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)CurrentBP:Rate_RBV") {
@@ -2446,6 +2621,7 @@ record(longin, "$(PREFIX)CurrentBP:Rate_RBV") {
   field(EGU, "Hz")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)CurrentBP:Transmission_RBV") {
@@ -2460,6 +2636,7 @@ record(ai, "$(PREFIX)CurrentBP:Transmission_RBV") {
   field(LOPR, "0")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)CurrentBP:PhotonEnergy_RBV") {
@@ -2473,6 +2650,7 @@ record(ai, "$(PREFIX)CurrentBP:PhotonEnergy_RBV") {
   field(EGU, "eV")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)CurrentBP:eVRanges_RBV") {
@@ -2486,6 +2664,7 @@ record(longin, "$(PREFIX)CurrentBP:eVRanges_RBV") {
   field(EGU, "eV")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)CurrentBP:Valid_RBV") {
@@ -2499,6 +2678,7 @@ record(bi, "$(PREFIX)CurrentBP:Valid_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(waveform, "$(PREFIX)RequestedBP:Veto_RBV") {
@@ -2515,6 +2695,7 @@ record(waveform, "$(PREFIX)RequestedBP:Veto_RBV") {
   field(APST, "On Change")
   info(autosaveFields_pass0, "DESC DISS SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)RequestedBP:Apt:01:Height_RBV") {
@@ -2529,6 +2710,7 @@ record(ai, "$(PREFIX)RequestedBP:Apt:01:Height_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)RequestedBP:Apt:01:Width_RBV") {
@@ -2543,6 +2725,7 @@ record(ai, "$(PREFIX)RequestedBP:Apt:01:Width_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)RequestedBP:Apt:01:OK_RBV") {
@@ -2557,6 +2740,7 @@ record(bi, "$(PREFIX)RequestedBP:Apt:01:OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)RequestedBP:Apt:02:Height_RBV") {
@@ -2571,6 +2755,7 @@ record(ai, "$(PREFIX)RequestedBP:Apt:02:Height_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)RequestedBP:Apt:02:Width_RBV") {
@@ -2585,6 +2770,7 @@ record(ai, "$(PREFIX)RequestedBP:Apt:02:Width_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)RequestedBP:Apt:02:OK_RBV") {
@@ -2599,6 +2785,7 @@ record(bi, "$(PREFIX)RequestedBP:Apt:02:OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)RequestedBP:Apt:03:Height_RBV") {
@@ -2613,6 +2800,7 @@ record(ai, "$(PREFIX)RequestedBP:Apt:03:Height_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)RequestedBP:Apt:03:Width_RBV") {
@@ -2627,6 +2815,7 @@ record(ai, "$(PREFIX)RequestedBP:Apt:03:Width_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)RequestedBP:Apt:03:OK_RBV") {
@@ -2641,6 +2830,7 @@ record(bi, "$(PREFIX)RequestedBP:Apt:03:OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)RequestedBP:Apt:04:Height_RBV") {
@@ -2655,6 +2845,7 @@ record(ai, "$(PREFIX)RequestedBP:Apt:04:Height_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)RequestedBP:Apt:04:Width_RBV") {
@@ -2669,6 +2860,7 @@ record(ai, "$(PREFIX)RequestedBP:Apt:04:Width_RBV") {
   field(EGU, "mm")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)RequestedBP:Apt:04:OK_RBV") {
@@ -2683,6 +2875,7 @@ record(bi, "$(PREFIX)RequestedBP:Apt:04:OK_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)RequestedBP:BeamClassRanges_RBV") {
@@ -2695,6 +2888,7 @@ record(longin, "$(PREFIX)RequestedBP:BeamClassRanges_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/PMPS_GVL.stRequestedBeamParameters.nBCRange?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)RequestedBP:BeamClass_RBV") {
@@ -2707,6 +2901,7 @@ record(longin, "$(PREFIX)RequestedBP:BeamClass_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/PMPS_GVL.stRequestedBeamParameters.nBeamClass?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)RequestedBP:Cohort_RBV") {
@@ -2718,6 +2913,7 @@ record(longin, "$(PREFIX)RequestedBP:Cohort_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/PMPS_GVL.stRequestedBeamParameters.nCohortInt?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)RequestedBP:MachineMode_RBV") {
@@ -2730,6 +2926,7 @@ record(longin, "$(PREFIX)RequestedBP:MachineMode_RBV") {
   field(INP, "@asyn($(PORT),0,1)ADSPORT=851/POLL_RATE=1/PMPS_GVL.stRequestedBeamParameters.nMachineMode?")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)RequestedBP:Rate_RBV") {
@@ -2742,6 +2939,7 @@ record(longin, "$(PREFIX)RequestedBP:Rate_RBV") {
   field(EGU, "Hz")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)RequestedBP:Transmission_RBV") {
@@ -2756,6 +2954,7 @@ record(ai, "$(PREFIX)RequestedBP:Transmission_RBV") {
   field(LOPR, "0")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(ai, "$(PREFIX)RequestedBP:PhotonEnergy_RBV") {
@@ -2769,6 +2968,7 @@ record(ai, "$(PREFIX)RequestedBP:PhotonEnergy_RBV") {
   field(EGU, "eV")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV PREC SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(longin, "$(PREFIX)RequestedBP:eVRanges_RBV") {
@@ -2782,6 +2982,7 @@ record(longin, "$(PREFIX)RequestedBP:eVRanges_RBV") {
   field(EGU, "eV")
   info(autosaveFields_pass0, "DESC DISS HHSV HIGH HIHI HSV LLSV LOLO LOW LSV SIMS UDFS")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }
 
 record(bi, "$(PREFIX)RequestedBP:Valid_RBV") {
@@ -2796,4 +2997,5 @@ record(bi, "$(PREFIX)RequestedBP:Valid_RBV") {
   field(ONAM, "TRUE")
   info(autosaveFields_pass0, "DESC DISS OSV SIMS UDFS ZSV")
   info(archive, "monitor 1: VAL")
+  field(ASG, "NO_WRITE")
 }

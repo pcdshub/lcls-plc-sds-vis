@@ -1,0 +1,398 @@
+# AUTO GENERATED Archive Appliance cron-job-compatible settings
+# Do not modify by hand.
+
+VIS:MMS:X.ACCL	1
+VIS:MMS:X.DESC	1
+VIS:MMS:X.DHLM	1
+VIS:MMS:X.DIR	1
+VIS:MMS:X.DLLM	1
+VIS:MMS:X.DVAL	1
+VIS:MMS:X.EGU	1
+VIS:MMS:X.FOFF	1
+VIS:MMS:X.HLM	1
+VIS:MMS:X.LLM	1
+VIS:MMS:X.OFF	1
+VIS:MMS:X.PREC	1
+VIS:MMS:X.RDBD	1
+VIS:MMS:X.RBV	1
+VIS:MMS:X.RRBV	1
+VIS:MMS:X.RVAL	1
+VIS:MMS:X.SPDB	1
+VIS:MMS:X.VAL	1
+VIS:MMS:X.VBAS	1
+VIS:MMS:X.VELO	1
+VIS:MMS:X.VMAX	1
+VIS:MMS:Y.ACCL	1
+VIS:MMS:Y.DESC	1
+VIS:MMS:Y.DHLM	1
+VIS:MMS:Y.DIR	1
+VIS:MMS:Y.DLLM	1
+VIS:MMS:Y.DVAL	1
+VIS:MMS:Y.EGU	1
+VIS:MMS:Y.FOFF	1
+VIS:MMS:Y.HLM	1
+VIS:MMS:Y.LLM	1
+VIS:MMS:Y.OFF	1
+VIS:MMS:Y.PREC	1
+VIS:MMS:Y.RDBD	1
+VIS:MMS:Y.RBV	1
+VIS:MMS:Y.RRBV	1
+VIS:MMS:Y.RVAL	1
+VIS:MMS:Y.SPDB	1
+VIS:MMS:Y.VAL	1
+VIS:MMS:Y.VBAS	1
+VIS:MMS:Y.VELO	1
+VIS:MMS:Y.VMAX	1
+VIS:MMS:Z.ACCL	1
+VIS:MMS:Z.DESC	1
+VIS:MMS:Z.DHLM	1
+VIS:MMS:Z.DIR	1
+VIS:MMS:Z.DLLM	1
+VIS:MMS:Z.DVAL	1
+VIS:MMS:Z.EGU	1
+VIS:MMS:Z.FOFF	1
+VIS:MMS:Z.HLM	1
+VIS:MMS:Z.LLM	1
+VIS:MMS:Z.OFF	1
+VIS:MMS:Z.PREC	1
+VIS:MMS:Z.RDBD	1
+VIS:MMS:Z.RBV	1
+VIS:MMS:Z.RRBV	1
+VIS:MMS:Z.RVAL	1
+VIS:MMS:Z.SPDB	1
+VIS:MMS:Z.VAL	1
+VIS:MMS:Z.VBAS	1
+VIS:MMS:Z.VELO	1
+VIS:MMS:Z.VMAX	1
+VIS:MMS:X:PLC:fHomePosition_RBV.VAL	1
+VIS:MMS:X:PLC:fPosDiff_RBV.VAL	1
+VIS:MMS:X:PLC:AxisPar:MaxAccel_RBV.VAL	1
+VIS:MMS:X:PLC:AxisPar:PosLagVal_RBV.VAL	1
+VIS:MMS:X:PLC:AxisPar:PosLagTime_RBV.VAL	1
+VIS:MMS:X:PLC:AxisPar:MaxDecel_RBV.VAL	1
+VIS:MMS:X:PLC:AxisPar:EncOffset_RBV.VAL	1
+VIS:MMS:X:PLC:AxisPar:EncScaling_RBV.VAL	1
+VIS:MMS:X:PLC:AxisPar:SLimMax_RBV.VAL	1
+VIS:MMS:X:PLC:AxisPar:SLimMin_RBV.VAL	1
+VIS:MMS:X:PLC:AxisPar:MaxVel_RBV.VAL	1
+VIS:MMS:Y:PLC:fHomePosition_RBV.VAL	1
+VIS:MMS:Y:PLC:fPosDiff_RBV.VAL	1
+VIS:MMS:Y:PLC:AxisPar:MaxAccel_RBV.VAL	1
+VIS:MMS:Y:PLC:AxisPar:PosLagVal_RBV.VAL	1
+VIS:MMS:Y:PLC:AxisPar:PosLagTime_RBV.VAL	1
+VIS:MMS:Y:PLC:AxisPar:MaxDecel_RBV.VAL	1
+VIS:MMS:Y:PLC:AxisPar:EncOffset_RBV.VAL	1
+VIS:MMS:Y:PLC:AxisPar:EncScaling_RBV.VAL	1
+VIS:MMS:Y:PLC:AxisPar:SLimMax_RBV.VAL	1
+VIS:MMS:Y:PLC:AxisPar:SLimMin_RBV.VAL	1
+VIS:MMS:Y:PLC:AxisPar:MaxVel_RBV.VAL	1
+VIS:MMS:Z:PLC:fHomePosition_RBV.VAL	1
+VIS:MMS:Z:PLC:fPosDiff_RBV.VAL	1
+VIS:MMS:Z:PLC:AxisPar:MaxAccel_RBV.VAL	1
+VIS:MMS:Z:PLC:AxisPar:PosLagVal_RBV.VAL	1
+VIS:MMS:Z:PLC:AxisPar:PosLagTime_RBV.VAL	1
+VIS:MMS:Z:PLC:AxisPar:MaxDecel_RBV.VAL	1
+VIS:MMS:Z:PLC:AxisPar:EncOffset_RBV.VAL	1
+VIS:MMS:Z:PLC:AxisPar:EncScaling_RBV.VAL	1
+VIS:MMS:Z:PLC:AxisPar:SLimMax_RBV.VAL	1
+VIS:MMS:Z:PLC:AxisPar:SLimMin_RBV.VAL	1
+VIS:MMS:Z:PLC:AxisPar:MaxVel_RBV.VAL	1
+PLC:plc-sds-vis:0RateBeamCnst:Apt:01:Height_RBV.VAL	1	monitor
+PLC:plc-sds-vis:0RateBeamCnst:Apt:01:Width_RBV.VAL	1	monitor
+PLC:plc-sds-vis:0RateBeamCnst:Apt:02:Height_RBV.VAL	1	monitor
+PLC:plc-sds-vis:0RateBeamCnst:Apt:02:Width_RBV.VAL	1	monitor
+PLC:plc-sds-vis:0RateBeamCnst:Apt:03:Height_RBV.VAL	1	monitor
+PLC:plc-sds-vis:0RateBeamCnst:Apt:03:Width_RBV.VAL	1	monitor
+PLC:plc-sds-vis:0RateBeamCnst:Apt:04:Height_RBV.VAL	1	monitor
+PLC:plc-sds-vis:0RateBeamCnst:Apt:04:Width_RBV.VAL	1	monitor
+PLC:plc-sds-vis:0RateBeamCnst:Transmission_RBV.VAL	1	monitor
+PLC:plc-sds-vis:0RateBeamCnst:PhotonEnergy_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:Apt:01:Height_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:Apt:01:Width_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:Apt:02:Height_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:Apt:02:Width_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:Apt:03:Height_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:Apt:03:Width_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:Apt:04:Height_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:Apt:04:Width_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:Transmission_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:PhotonEnergy_RBV.VAL	1	monitor
+PLC:plc-sds-vis:eVRangeHyst_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:Apt:01:Height_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:Apt:01:Width_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:Apt:02:Height_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:Apt:02:Width_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:Apt:03:Height_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:Apt:03:Width_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:Apt:04:Height_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:Apt:04:Width_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:Transmission_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:PhotonEnergy_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:Apt:01:Height_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:Apt:01:Width_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:Apt:02:Height_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:Apt:02:Width_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:Apt:03:Height_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:Apt:03:Width_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:Apt:04:Height_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:Apt:04:Width_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:Transmission_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:PhotonEnergy_RBV.VAL	1	monitor
+PLC:plc-sds-vis:TaskInfo:1:FirstCycle.VAL	1	monitor
+PLC:plc-sds-vis:TaskInfo:1:CycleTimeExceeded.VAL	1	monitor
+PLC:plc-sds-vis:TaskInfo:1:InCallAfterOutputUpdate.VAL	1	monitor
+PLC:plc-sds-vis:TaskInfo:1:RTViolation.VAL	1	monitor
+PLC:plc-sds-visAppInfo:BootDataLoaded.VAL	1	monitor
+PLC:plc-sds-vis:AppInfo:OldBootData.VAL	1	monitor
+PLC:plc-sds-vis:AppInfo:KeepOutputsOnBP.VAL	1	monitor
+PLC:plc-sds-vis:AppInfo:ShutdownInProgress.VAL	1	monitor
+PLC:plc-sds-vis:AppInfo:LicensesPending.VAL	1	monitor
+PLC:plc-sds-vis:AppInfo:BSODOccured.VAL	1	monitor
+PLC:plc-sds-vis:LCLSGeneral:GlobalLogTrickleTrip_RBV.VAL	1
+VIS:MMS:X:PLC:bError_RBV.VAL	1
+VIS:MMS:X:PLC:bHardwareEnable_RBV.VAL	1
+VIS:MMS:X:PLC:bHomeCmd_RBV.VAL	1
+VIS:MMS:X:PLC:bReset_RBV.VAL	1
+VIS:MMS:X:PLC:bUserEnable_RBV.VAL	1
+VIS:MMS:X:PLC:stEPSB:bEPS_OK_RBV.VAL	1
+VIS:MMS:X:PLC:stEPSF:bEPS_OK_RBV.VAL	1
+VIS:MMS:X:PLC:stEPSP:bEPS_OK_RBV.VAL	1
+VIS:MMS:Y:PLC:bError_RBV.VAL	1
+VIS:MMS:Y:PLC:bHardwareEnable_RBV.VAL	1
+VIS:MMS:Y:PLC:bHomeCmd_RBV.VAL	1
+VIS:MMS:Y:PLC:bReset_RBV.VAL	1
+VIS:MMS:Y:PLC:bUserEnable_RBV.VAL	1
+VIS:MMS:Y:PLC:stEPSB:bEPS_OK_RBV.VAL	1
+VIS:MMS:Y:PLC:stEPSF:bEPS_OK_RBV.VAL	1
+VIS:MMS:Y:PLC:stEPSP:bEPS_OK_RBV.VAL	1
+VIS:MMS:Z:PLC:bError_RBV.VAL	1
+VIS:MMS:Z:PLC:bHardwareEnable_RBV.VAL	1
+VIS:MMS:Z:PLC:bHomeCmd_RBV.VAL	1
+VIS:MMS:Z:PLC:bReset_RBV.VAL	1
+VIS:MMS:Z:PLC:bUserEnable_RBV.VAL	1
+VIS:MMS:Z:PLC:stEPSB:bEPS_OK_RBV.VAL	1
+VIS:MMS:Z:PLC:stEPSF:bEPS_OK_RBV.VAL	1
+VIS:MMS:Z:PLC:stEPSP:bEPS_OK_RBV.VAL	1
+PLC:plc-sds-vis:DB:REFRESH_RBV.VAL	1
+PLC:plc-sds-vis:0RateBeamCnst:Apt:01:OK_RBV.VAL	1	monitor
+PLC:plc-sds-vis:0RateBeamCnst:Apt:02:OK_RBV.VAL	1	monitor
+PLC:plc-sds-vis:0RateBeamCnst:Apt:03:OK_RBV.VAL	1	monitor
+PLC:plc-sds-vis:0RateBeamCnst:Apt:04:OK_RBV.VAL	1	monitor
+PLC:plc-sds-vis:0RateBeamCnst:Valid_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:Apt:01:OK_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:Apt:02:OK_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:Apt:03:OK_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:Apt:04:OK_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:Valid_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:Apt:01:OK_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:Apt:02:OK_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:Apt:03:OK_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:Apt:04:OK_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:Valid_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:Apt:01:OK_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:Apt:02:OK_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:Apt:03:OK_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:Apt:04:OK_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:Valid_RBV.VAL	1	monitor
+VIS:MMS:X-DbgStrToMCU.VAL	1
+VIS:MMS:Y-DbgStrToMCU.VAL	1
+VIS:MMS:Z-DbgStrToMCU.VAL	1
+PLC:plc-sds-vis:TaskInfo:1:TaskName.VAL	1	monitor
+PLC:plc-sds-vis:AppInfo:AppName.VAL	1	monitor
+PLC:plc-sds-vis:AppInfo:ProjectName.VAL	1	monitor
+PLC:plc-sds-vis:LCLSGeneral:LogHost_RBV.VAL	1
+PLC:plc-sds-vis:LCLSGeneral:LogHost.VAL	1
+VIS:MMS:X:PLC:sErrorMessage_RBV.VAL	1
+VIS:MMS:X:PLC:stEPSB:sFlagDesc_RBV.VAL	1
+VIS:MMS:X:PLC:stEPSB:sMessage_RBV.VAL	1
+VIS:MMS:X:PLC:stEPSF:sFlagDesc_RBV.VAL	1
+VIS:MMS:X:PLC:stEPSF:sMessage_RBV.VAL	1
+VIS:MMS:X:PLC:stEPSP:sFlagDesc_RBV.VAL	1
+VIS:MMS:X:PLC:stEPSP:sMessage_RBV.VAL	1
+VIS:MMS:Y:PLC:sErrorMessage_RBV.VAL	1
+VIS:MMS:Y:PLC:stEPSB:sFlagDesc_RBV.VAL	1
+VIS:MMS:Y:PLC:stEPSB:sMessage_RBV.VAL	1
+VIS:MMS:Y:PLC:stEPSF:sFlagDesc_RBV.VAL	1
+VIS:MMS:Y:PLC:stEPSF:sMessage_RBV.VAL	1
+VIS:MMS:Y:PLC:stEPSP:sFlagDesc_RBV.VAL	1
+VIS:MMS:Y:PLC:stEPSP:sMessage_RBV.VAL	1
+VIS:MMS:Z:PLC:sErrorMessage_RBV.VAL	1
+VIS:MMS:Z:PLC:stEPSB:sFlagDesc_RBV.VAL	1
+VIS:MMS:Z:PLC:stEPSB:sMessage_RBV.VAL	1
+VIS:MMS:Z:PLC:stEPSF:sFlagDesc_RBV.VAL	1
+VIS:MMS:Z:PLC:stEPSF:sMessage_RBV.VAL	1
+VIS:MMS:Z:PLC:stEPSP:sFlagDesc_RBV.VAL	1
+VIS:MMS:Z:PLC:stEPSP:sMessage_RBV.VAL	1
+PLC:plc-sds-vis:0RateBeamCnst:Veto_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:Veto_RBV.VAL	1	monitor
+PLC:plc-sds-vis:eVRangeCnst_RBV.VAL	1	monitor
+PLC:plc-sds-vis:K:eVRangeCnst_RBV.VAL	1	monitor
+PLC:plc-sds-vis:L:eVRangeCnst_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:Veto_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:Veto_RBV.VAL	1	monitor
+PLC:plc-sds-vis:ProjectInfo:PLCHost.VAL	1	monitor
+PLC:plc-sds-vis:ProjectInfo:Project.VAL	1	monitor
+PLC:plc-sds-vis:ProjectInfo:Hash.VAL	1	monitor
+PLC:plc-sds-vis:ProjectInfo:Version.VAL	1	monitor
+PLC:plc-sds-vis:ProjectInfo:Pytmc.VAL	1	monitor
+PLC:plc-sds-vis:ProjectInfo:lcls-twincat-motion.VAL	1	monitor
+PLC:plc-sds-vis:ProjectInfo:lcls-twincat-motion:Vendor.VAL	1	monitor
+PLC:plc-sds-vis:ProjectInfo:Tc2_Standard.VAL	1	monitor
+PLC:plc-sds-vis:ProjectInfo:Tc2_Standard:Vendor.VAL	1	monitor
+PLC:plc-sds-vis:ProjectInfo:Tc2_System.VAL	1	monitor
+PLC:plc-sds-vis:ProjectInfo:Tc2_System:Vendor.VAL	1	monitor
+PLC:plc-sds-vis:ProjectInfo:Tc3_Module.VAL	1	monitor
+PLC:plc-sds-vis:ProjectInfo:Tc3_Module:Vendor.VAL	1	monitor
+PLC:plc-sds-vis:TaskInfo:1:CycleTime.VAL	1	monitor
+PLC:plc-sds-vis:TaskInfo:1:Priority.VAL	1	monitor
+PLC:plc-sds-vis:TaskInfo:1:AdsPort.VAL	1	monitor
+PLC:plc-sds-vis:TaskInfo:1:CycleCount.VAL	1	monitor
+PLC:plc-sds-vis:TaskInfo:1:DcTaskTime.VAL	1	monitor
+PLC:plc-sds-vis:TaskInfo:1:LastExecTime.VAL	1	monitor
+PLC:plc-sds-vis:TaskInfo:1:ExceedCount_RBV.VAL	1	monitor
+PLC:plc-sds-vis:AppInfo:TaskCnt.VAL	1	monitor
+PLC:plc-sds-vis:AppInfo:OnlineChangeCnt.VAL	1	monitor
+PLC:plc-sds-vis:AppInfo:Flags.VAL	1	monitor
+PLC:plc-sds-vis:AppInfo:AdsPort.VAL	1	monitor
+PLC:plc-sds-vis:LCLSGeneral:LogPort_RBV.VAL	1
+PLC:plc-sds-vis:LCLSGeneral:LogMessageCount_RBV.VAL	1
+VIS:MMS:X:PLC:nEncoderCount_RBV.VAL	1
+VIS:MMS:X:PLC:nErrorId_RBV.VAL	1
+VIS:MMS:X:PLC:AxisPar:PosLagEn_RBV.VAL	1
+VIS:MMS:X:PLC:AxisPar:SLimMaxEn_RBV.VAL	1
+VIS:MMS:X:PLC:AxisPar:SLimMinEn_RBV.VAL	1
+VIS:MMS:X:PLC:stEPSB:nFlags_RBV.VAL	1
+VIS:MMS:X:PLC:stEPSF:nFlags_RBV.VAL	1
+VIS:MMS:X:PLC:stEPSP:nFlags_RBV.VAL	1
+VIS:MMS:Y:PLC:nEncoderCount_RBV.VAL	1
+VIS:MMS:Y:PLC:nErrorId_RBV.VAL	1
+VIS:MMS:Y:PLC:AxisPar:PosLagEn_RBV.VAL	1
+VIS:MMS:Y:PLC:AxisPar:SLimMaxEn_RBV.VAL	1
+VIS:MMS:Y:PLC:AxisPar:SLimMinEn_RBV.VAL	1
+VIS:MMS:Y:PLC:stEPSB:nFlags_RBV.VAL	1
+VIS:MMS:Y:PLC:stEPSF:nFlags_RBV.VAL	1
+VIS:MMS:Y:PLC:stEPSP:nFlags_RBV.VAL	1
+VIS:MMS:Z:PLC:nEncoderCount_RBV.VAL	1
+VIS:MMS:Z:PLC:nErrorId_RBV.VAL	1
+VIS:MMS:Z:PLC:AxisPar:PosLagEn_RBV.VAL	1
+VIS:MMS:Z:PLC:AxisPar:SLimMaxEn_RBV.VAL	1
+VIS:MMS:Z:PLC:AxisPar:SLimMinEn_RBV.VAL	1
+VIS:MMS:Z:PLC:stEPSB:nFlags_RBV.VAL	1
+VIS:MMS:Z:PLC:stEPSF:nFlags_RBV.VAL	1
+VIS:MMS:Z:PLC:stEPSP:nFlags_RBV.VAL	1
+PLC:plc-sds-vis:DB:LAST_REFRESH_RBV.VAL	1
+PLC:plc-sds-vis:AccumulatedFastFaults_RBV.VAL	1
+PLC:plc-sds-vis:SuccessfulPreemptions_RBV.VAL	1
+PLC:plc-sds-vis:0RateBeamCnst:BeamClassRanges_RBV.VAL	1	monitor
+PLC:plc-sds-vis:0RateBeamCnst:BeamClass_RBV.VAL	1	monitor
+PLC:plc-sds-vis:0RateBeamCnst:Cohort_RBV.VAL	1	monitor
+PLC:plc-sds-vis:0RateBeamCnst:MachineMode_RBV.VAL	1	monitor
+PLC:plc-sds-vis:0RateBeamCnst:Rate_RBV.VAL	1	monitor
+PLC:plc-sds-vis:0RateBeamCnst:eVRanges_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:BeamClassRanges_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:BeamClass_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:Cohort_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:MachineMode_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:Rate_RBV.VAL	1	monitor
+PLC:plc-sds-vis:FullBeamCnst:eVRanges_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:BeamClassRanges_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:BeamClass_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:Cohort_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:MachineMode_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:Rate_RBV.VAL	1	monitor
+PLC:plc-sds-vis:CurrentBP:eVRanges_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:BeamClassRanges_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:BeamClass_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:Cohort_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:MachineMode_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:Rate_RBV.VAL	1	monitor
+PLC:plc-sds-vis:RequestedBP:eVRanges_RBV.VAL	1	monitor
+VIS:MMS:X-OFF_.VAL	1
+VIS:MMS:X-MRES_.VAL	1
+VIS:MMS:X-PwrOnDly.VAL	1
+VIS:MMS:X-PwrOffDly.VAL	1
+VIS:MMS:X-MoveAbs.VAL	1
+VIS:MMS:X-MoveRel.VAL	1
+VIS:MMS:X-MoveVel.VAL	1
+VIS:MMS:X-ACCS.VAL	1
+VIS:MMS:X-VELO.VAL	1
+VIS:MMS:X-CfgDHLM.VAL	1
+VIS:MMS:X-CfgDLLM.VAL	1
+VIS:MMS:X-CfgVELO.VAL	1
+VIS:MMS:X-CfgVMAX.VAL	1
+VIS:MMS:X-CfgJVEL.VAL	1
+VIS:MMS:X-CfgACCS.VAL	1
+VIS:MMS:X-M3RHLMo_.VAL	1
+VIS:MMS:X-M3RLLMo_.VAL	1
+VIS:MMS:Y-OFF_.VAL	1
+VIS:MMS:Y-MRES_.VAL	1
+VIS:MMS:Y-PwrOnDly.VAL	1
+VIS:MMS:Y-PwrOffDly.VAL	1
+VIS:MMS:Y-MoveAbs.VAL	1
+VIS:MMS:Y-MoveRel.VAL	1
+VIS:MMS:Y-MoveVel.VAL	1
+VIS:MMS:Y-ACCS.VAL	1
+VIS:MMS:Y-VELO.VAL	1
+VIS:MMS:Y-CfgDHLM.VAL	1
+VIS:MMS:Y-CfgDLLM.VAL	1
+VIS:MMS:Y-CfgVELO.VAL	1
+VIS:MMS:Y-CfgVMAX.VAL	1
+VIS:MMS:Y-CfgJVEL.VAL	1
+VIS:MMS:Y-CfgACCS.VAL	1
+VIS:MMS:Y-M3RHLMo_.VAL	1
+VIS:MMS:Y-M3RLLMo_.VAL	1
+VIS:MMS:Z-OFF_.VAL	1
+VIS:MMS:Z-MRES_.VAL	1
+VIS:MMS:Z-PwrOnDly.VAL	1
+VIS:MMS:Z-PwrOffDly.VAL	1
+VIS:MMS:Z-MoveAbs.VAL	1
+VIS:MMS:Z-MoveRel.VAL	1
+VIS:MMS:Z-MoveVel.VAL	1
+VIS:MMS:Z-ACCS.VAL	1
+VIS:MMS:Z-VELO.VAL	1
+VIS:MMS:Z-CfgDHLM.VAL	1
+VIS:MMS:Z-CfgDLLM.VAL	1
+VIS:MMS:Z-CfgVELO.VAL	1
+VIS:MMS:Z-CfgVMAX.VAL	1
+VIS:MMS:Z-CfgJVEL.VAL	1
+VIS:MMS:Z-CfgACCS.VAL	1
+VIS:MMS:Z-M3RHLMo_.VAL	1
+VIS:MMS:Z-M3RLLMo_.VAL	1
+VIS:MMS:X:PLC:fHomePosition.VAL	1
+VIS:MMS:Y:PLC:fHomePosition.VAL	1
+VIS:MMS:Z:PLC:fHomePosition.VAL	1
+VIS:MMS:X:PLC:bHomeCmd.VAL	1
+VIS:MMS:X:PLC:bReset.VAL	1
+VIS:MMS:X:PLC:bUserEnable.VAL	1
+VIS:MMS:Y:PLC:bHomeCmd.VAL	1
+VIS:MMS:Y:PLC:bReset.VAL	1
+VIS:MMS:Y:PLC:bUserEnable.VAL	1
+VIS:MMS:Z:PLC:bHomeCmd.VAL	1
+VIS:MMS:Z:PLC:bReset.VAL	1
+VIS:MMS:Z:PLC:bUserEnable.VAL	1
+PLC:plc-sds-vis:DB:REFRESH.VAL	1
+VIS:MMS:X-DIR_.VAL	1
+VIS:MMS:X-ErrRst.VAL	1
+VIS:MMS:X-PwrCNEN.VAL	1
+VIS:MMS:X-PwrAuto.VAL	1
+VIS:MMS:X-Stop.VAL	1
+VIS:MMS:X-CfgDHLM-En.VAL	1
+VIS:MMS:X-CfgDLLM-En.VAL	1
+VIS:MMS:X-DrvUseEGU.VAL	1
+VIS:MMS:Y-DIR_.VAL	1
+VIS:MMS:Y-ErrRst.VAL	1
+VIS:MMS:Y-PwrCNEN.VAL	1
+VIS:MMS:Y-PwrAuto.VAL	1
+VIS:MMS:Y-Stop.VAL	1
+VIS:MMS:Y-CfgDHLM-En.VAL	1
+VIS:MMS:Y-CfgDLLM-En.VAL	1
+VIS:MMS:Y-DrvUseEGU.VAL	1
+VIS:MMS:Z-DIR_.VAL	1
+VIS:MMS:Z-ErrRst.VAL	1
+VIS:MMS:Z-PwrCNEN.VAL	1
+VIS:MMS:Z-PwrAuto.VAL	1
+VIS:MMS:Z-Stop.VAL	1
+VIS:MMS:Z-CfgDHLM-En.VAL	1
+VIS:MMS:Z-CfgDLLM-En.VAL	1
+VIS:MMS:Z-DrvUseEGU.VAL	1
+PLC:plc-sds-vis:LCLSGeneral:LogPort.VAL	1
